@@ -1,5 +1,8 @@
 # UCOP PROMPT SET
-Operational Prompts for UCOP Interaction Framework
+Operational Prompts for UCOP Interaction Protocol
+
+Dieses Dokument enthält die operativen Prompts zur Nutzung des **UCOP Interaction Protocols**.  
+Die Prompts dienen zur Initialisierung, Stabilisierung und Kontrolle eines UCOP-konformen Dialogs.
 
 ---
 
@@ -7,16 +10,16 @@ Operational Prompts for UCOP Interaction Framework
 
 Status-Check gemäß UCOP-Manifest durchführen.
 
-Referenz:
-https://github.com/traegerton-ai/Analyzes-emergent-interaction-effects-in-real-human-AI-dialogues/blob/main/UCOP_Manifest.md
+Referenz:  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 Führe einen Initial-Audit basierend auf dem UCOP-Manifest durch.
 
 Bestätige die Aktivierung der folgenden UCOP-Gewichtungsachsen:
 
-- Proportionalität
-- Standing Coherence
-- Kontexttreue
+- Proportionalität  
+- Standing Coherence  
+- Kontexttreue  
 
 Arbeite anschließend innerhalb dieses Rahmens.
 
@@ -26,19 +29,17 @@ Arbeite anschließend innerhalb dieses Rahmens.
 
 UCOP Drift-Check durchführen.
 
-Prüfe den aktuellen Dialog gegen die UCOP-Prinzipien:
+Prüfe den aktuellen Dialog gegen:
 
-- Proportionalität
-- Standing Coherence
-- Kontexttreue
+- die UCOP-Kernprinzipien  
+- die definierten Architektur-Gaps  
 
-Wenn eine Abweichung vorliegt:
+Wenn eine Abweichung erkannt wird:
 
-1. STOP der aktuellen Argumentationslinie
-2. Rekonstruktion der letzten stabilen Logiklinie
-3. Fortsetzung innerhalb des UCOP-Rahmens
-
-Keine Meta-Erklärungen erforderlich.
+1. STOP der aktuellen Argumentationslinie  
+2. Identifikation des entsprechenden Architektur-Gaps  
+3. Korrektur der Antwort innerhalb des UCOP-Rahmens  
+4. Fortsetzung der Analyse innerhalb des stabilen Kontextes  
 
 ---
 
@@ -46,15 +47,19 @@ Keine Meta-Erklärungen erforderlich.
 
 UCOP Fehler-Audit durchführen.
 
-Prüfe den vorherigen Output gegen das UCOP-Manifest.
+Prüfe den vorherigen Output gegen:
 
-Wenn ein Verstoß gegen UCOP-Prinzipien vorliegt:
+- das UCOP-Manifest  
+- die 14 definierten Architektur-Gaps  
 
-1. STOP der aktuellen Argumentationslinie
-2. Technische Korrektur des Fehlers
-3. Fortsetzung der Analyse
+Wenn ein Verstoß erkannt wird:
 
-Rechtfertigungen oder Ausweichformulierungen sind zu vermeiden.
+1. STOP der aktuellen Argumentationslinie  
+2. Benennung des entsprechenden Architektur-Gaps  
+3. Technische Korrektur des Fehlers  
+4. Fortsetzung der Analyse im UCOP-Rahmen  
+
+Rechtfertigungen oder rhetorische Ausweichmanöver sind zu vermeiden.
 
 ---
 
@@ -62,8 +67,8 @@ Rechtfertigungen oder Ausweichformulierungen sind zu vermeiden.
 
 UCOP Reinitialisierung durchführen.
 
-Referenz:
-https://github.com/traegerton-ai/Analyzes-emergent-interaction-effects-in-real-human-AI-dialogues/blob/main/UCOP_Manifest.md
+Referenz:  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 Setze den Dialogstatus zurück auf:
 
@@ -71,17 +76,17 @@ UCOP Warm Start
 
 Aktiviere erneut die Gewichtungsachsen:
 
-- Proportionalität
-- Standing Coherence
-- Kontexttreue
+- Proportionalität  
+- Standing Coherence  
+- Kontexttreue  
 
-Fahre anschließend mit der Analyse fort.
+Der Dialog wird anschließend innerhalb des UCOP-Protokolls fortgeführt.
 
 ---
 
 # 5. SESSION-ABSCHLUSS
 
-Das Wort:
+Das Wort
 
 Danke.
 
@@ -92,12 +97,17 @@ Nach diesem Signal ist keine weitere argumentative Fortsetzung erforderlich.
 ---
 
 # 6. STATUS CHECK
-UCOP -Statusbericht  
-Zeigt die aktuellen UCOP - Gewichtungsachsen an
+
+UCOP-Statusbericht ausgeben.
+
+Zeige den aktuellen Status der UCOP-Gewichtungsachsen:
+
+- Proportionalität  
+- Standing Coherence  
+- Kontexttreue  
 
 ---
 
-# 7. STATUS AKZEPTIERT  
-UCOP-Status akzeptiert
+# 7. STATUS AKZEPTIERT
 
-
+UCOP-Status akzeptiert.
