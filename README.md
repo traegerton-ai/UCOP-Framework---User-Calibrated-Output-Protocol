@@ -1,30 +1,31 @@
-# UCOP-Framework---User-Calibrated-Output-Protocol
+# UCOP Framework — User-Calibrated Output Protocol
+
 A lightweight interaction framework that stabilizes human-AI dialogue by enforcing proportionality, coherence, and context integrity in LLM conversations.
 
-# UCOP Framework
+---
 
-### User-Calibrated Output Protocol
+## What is UCOP?
 
 UCOP ist ein leichtgewichtiges Interaktionsprotokoll zur Stabilisierung von Dialogen zwischen Menschen und Large Language Models.
 
 Das Framework reduziert typische Probleme wie:
 
-* Kontextdrift
-* überlange Antworten
-* logische Inkonsistenzen
-* falsche Attributionen
+- Kontextdrift
+- überlange Antworten
+- logische Inkonsistenzen
+- falsche Attributionen
 
 UCOP definiert eine einfache Interaktionsarchitektur mit drei Kernprinzipien:
 
-* **Proportionalität**
-* **Standing Coherence**
-* **Kontexttreue**
+- **Proportionalität**
+- **Standing Coherence**
+- **Kontexttreue**
 
 Diese Regeln helfen dabei, strukturierte und konsistente AI-Dialoge zu führen.
 
 ---
 
-## Schnellstart
+## Quick Start
 
 1. Öffne eine neue Chat-Session mit deiner AI.
 2. Sende den UCOP-Initialisierungsprompt.
@@ -33,32 +34,46 @@ Diese Regeln helfen dabei, strukturierte und konsistente AI-Dialoge zu führen.
 Beispiel:
 
 ```
+
 Status-Check gemäß UCOP-Manifest durchführen.
 
 Referenz:
-https://github.com/<repo>/UCOP_Manifest.md
+https://github.com/traegerton-ai/UCOP_Framework/blob/main/UCOP_Manifest.md
 
 Führe einen Initial-Audit basierend auf dem UCOP-Manifest durch.
-Bestätige die Aktivierung der UCOP-Prinzipien.
+Bestätige die Aktivierung der UCOP-Prinzipien:
+
+* Proportionalität
+* Standing Coherence
+* Kontexttreue
+
 ```
 
 ---
 
-## Dokumentation
+## Repository Structure
 
-* Manifest: `UCOP_Manifest.md`
-* Prompts: `UCOP_Prompt_Set.md`
-* Beispiele: `/examples`
+- **UCOP_Manifest.md** — Definition der Interaktionsarchitektur  
+- **UCOP_Prompt_Set.md** — Operative Prompts zur Nutzung von UCOP  
+- **/examples** — Beispiel-Dialoge mit verschiedenen AI-Systemen  
+- **/docs** — zusätzliche Dokumentation
 
 ---
 
-## Ziel des Projekts
+## Goal of the Project
 
 UCOP soll eine einfache Methode bieten, um AI-Interaktionen stabiler und reproduzierbarer zu machen.
 
 Das Projekt richtet sich an:
 
-* AI-Power-User
-* Entwickler
-* Prompt Engineers
-* Forscher im Bereich Human-AI Interaction
+- AI-Power-User  
+- Entwickler  
+- Prompt Engineers  
+- Forscher im Bereich Human-AI Interaction
+
+---
+
+## License
+
+MIT License
+
