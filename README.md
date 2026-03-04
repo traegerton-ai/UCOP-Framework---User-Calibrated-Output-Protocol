@@ -31,8 +31,13 @@ Diese Prinzipien helfen dabei, strukturierte, nachvollziehbare und konsistente A
 2. Sende den UCOP-Initialisierungsprompt.
 3. Arbeite anschließend innerhalb des UCOP-Rahmens.
 
-### Example
+---
 
+ *UCOP Prompt Set* → (https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Prompt_Set.md)
+
+---
+
+### Example
 
 Status-Check gemäß UCOP-Manifest durchführen.
 
