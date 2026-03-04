@@ -95,4 +95,9 @@ Nach diesem Signal ist keine weitere argumentative Fortsetzung erforderlich.
 UCOP -Statusbericht  
 Zeigt die aktuellen UCOP - Gewichtungsachsen an
 
+---
+
+# 7. STATUS AKZEPTIERT  
+UCOP-Status akzeptiert
+
 
