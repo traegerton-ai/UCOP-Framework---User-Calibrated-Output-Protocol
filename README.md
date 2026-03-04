@@ -1,6 +1,6 @@
 # UCOP Framework — User-Calibrated Output Protocol
 
-A lightweight interaction framework that stabilizes human-AI dialogue by enforcing proportionality, coherence, and context integrity in LLM conversations.
+A lightweight interaction framework designed to stabilize human–AI dialogue by enforcing proportionality, coherence, and context integrity in LLM conversations.
 
 ---
 
@@ -8,20 +8,20 @@ A lightweight interaction framework that stabilizes human-AI dialogue by enforci
 
 UCOP ist ein leichtgewichtiges Interaktionsprotokoll zur Stabilisierung von Dialogen zwischen Menschen und Large Language Models.
 
-Das Framework reduziert typische Probleme wie:
+Das Framework adressiert typische Probleme moderner LLM-Interaktionen, wie:
 
-- Kontextdrift
-- überlange Antworten
-- logische Inkonsistenzen
-- falsche Attributionen
+- Kontextdrift  
+- überlange oder unproportionale Antworten  
+- logische Inkonsistenzen  
+- falsche Attributionen oder Fehlinterpretationen  
 
 UCOP definiert eine einfache Interaktionsarchitektur mit drei Kernprinzipien:
 
-- **Proportionalität**
-- **Standing Coherence**
+- **Proportionalität**  
+- **Standing Coherence**  
 - **Kontexttreue**
 
-Diese Regeln helfen dabei, strukturierte und konsistente AI-Dialoge zu führen.
+Diese Prinzipien helfen dabei, strukturierte, nachvollziehbare und konsistente AI-Dialoge zu führen.
 
 ---
 
@@ -31,23 +31,21 @@ Diese Regeln helfen dabei, strukturierte und konsistente AI-Dialoge zu führen.
 2. Sende den UCOP-Initialisierungsprompt.
 3. Arbeite anschließend innerhalb des UCOP-Rahmens.
 
-Beispiel:
+### Example
 
-```
 
 Status-Check gemäß UCOP-Manifest durchführen.
 
 Referenz:
-[https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md]
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 Führe einen Initial-Audit basierend auf dem UCOP-Manifest durch.
 Bestätige die Aktivierung der UCOP-Prinzipien:
 
-* Proportionalität
-* Standing Coherence
-* Kontexttreue
+- Proportionalität
+- Standing Coherence
+- Kontexttreue
 
-```
 
 ---
 
@@ -56,20 +54,20 @@ Bestätige die Aktivierung der UCOP-Prinzipien:
 - **UCOP_Manifest.md** — Definition der Interaktionsarchitektur  
 - **UCOP_Prompt_Set.md** — Operative Prompts zur Nutzung von UCOP  
 - **/examples** — Beispiel-Dialoge mit verschiedenen AI-Systemen  
-- **/docs** — zusätzliche Dokumentation
+- **/docs** — Zusätzliche Dokumentation und Hintergrundinformationen  
 
 ---
 
 ## Goal of the Project
 
-UCOP soll eine einfache Methode bieten, um AI-Interaktionen stabiler und reproduzierbarer zu machen.
+UCOP verfolgt das Ziel, eine einfache und reproduzierbare Methode zur Stabilisierung von AI-Interaktionen bereitzustellen.
 
-Das Projekt richtet sich an:
+Das Projekt richtet sich insbesondere an:
 
 - AI-Power-User  
 - Entwickler  
 - Prompt Engineers  
-- Forscher im Bereich Human-AI Interaction
+- Forscher im Bereich **Human–AI Interaction**
 
 ---
 
