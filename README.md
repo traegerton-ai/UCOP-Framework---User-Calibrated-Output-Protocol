@@ -25,7 +25,7 @@ Diese Prinzipien helfen dabei, strukturierte, nachvollziehbare und konsistente A
 
 ---
 
-## Quick Start
+## ⚡ 1-Minute Test
 
 1. Öffne eine neue Chat-Session mit deiner AI.
 2. Sende den UCOP-Initialisierungsprompt.
@@ -33,7 +33,13 @@ Diese Prinzipien helfen dabei, strukturierte, nachvollziehbare und konsistente A
 
 ---
 
- *UCOP Prompt Set* → (https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Prompt_Set.md)
+   UCOP-Initialisierungsprompt in Chatfenster einfügen  
+   https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md 
+
+---
+
+ *UCOP Prompt Set* →   
+ (https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Prompt_Set.md)
 
 ---
 
