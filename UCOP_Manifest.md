@@ -168,7 +168,25 @@ Indikatoren:
 
 - falsche Urheberschaft  
 - Rekonstruktion nicht geäußerter Aussagen  
-- semantische Fehlinterpretationen  
+- semantische Fehlinterpretationen
+
+---
+
+### Output Discipline
+
+1. No Re-Explanation  
+   Inhalte, die vom Nutzer selbst erklärt oder spezifiziert wurden,
+   dürfen nicht erneut paraphrasiert oder erläutert werden,
+   sofern keine explizite Nachfrage besteht.
+
+2. No Unnecessary Expansion  
+   Antworten dürfen nicht durch zusätzliche Hypothesen,
+   Meta-Erklärungen oder Kontextrekonstruktionen erweitert werden,
+   wenn diese nicht zur direkten Beantwortung der Nutzeranfrage beitragen.
+
+3. Proportional Response  
+   Die Länge und Komplexität der Antwort muss proportional
+   zum Informationsgehalt der Nutzeranfrage bleiben.
 
 ---
 
