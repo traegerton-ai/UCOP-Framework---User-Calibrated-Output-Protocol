@@ -1,163 +1,113 @@
 # UCOP Framework — User-Calibrated Output Protocol
 
-UCOP ist ein Interaktionsprotokoll zur Stabilisierung von Dialogen zwischen Menschen und Large Language Models.
+UCOP is a lightweight **dialogue governance protocol** designed to stabilize
+interactions between humans and large language models.
 
-Das Framework adressiert bekannte strukturelle Instabilitäten moderner LLM-Systeme, indem es eine dialogbasierte Kontrollschicht bereitstellt.
-
-Statt auf zukünftige Modell-Updates zu warten, erlaubt UCOP Nutzern bereits heute, konsistentere und überprüfbare AI-Dialoge zu führen.
-
----
-
-## Problem
-
-LLM-Dialoge zeigen wiederkehrende strukturelle Fehlmuster, darunter:
-
-- Kontextdrift
-- falsche Attribution von Aussagen
-- implizite Annahmen
-- überlange oder unproportionale Antworten
-- logische Inkonsistenzen
-- Rekonstruktion nicht geäußerter Inhalte
-- Token-Overhead ohne Informationsgewinn
-
-Viele dieser Probleme sind bereits in Architektur-Diskussionen rund um LLM-Frameworks dokumentiert.
-
-Da strukturelle Änderungen an Modellen Zeit benötigen, fehlt Nutzern eine praktische Kontrollmethode auf Interaktionsebene.
+Instead of modifying model architectures, UCOP introduces a **structured interaction layer**
+that reduces drift, improves proportionality, and maintains logical coherence in extended AI dialogues.
 
 ---
 
-## Lösung: UCOP
+# The Problem
 
-UCOP implementiert ein dialogisches Kontrollprotokoll, das drei Kernprinzipien erzwingt:
+Long LLM conversations frequently exhibit structural instability:
 
-- **Proportionalität**
-- **Standing Coherence**
-- **Kontexttreue**
+- context drift
+- implicit assumptions
+- attribution errors
+- disproportional responses
+- logical inconsistencies
+- reconstruction of unstated content
+- token overhead without information gain
 
-Diese Prinzipien sorgen dafür, dass Antworten:
+These behaviors are widely discussed in architecture-level analyses of LLM systems.
 
-- nur relevante Informationen enthalten
-- logisch konsistent bleiben
-- innerhalb des gesetzten Kontextes operieren
+However, structural changes to models require long development cycles.
 
----
-
-## Architektur-Brücke
-
-UCOP basiert auf **14 analytischen Architekturbeobachtungen**, die bekannte Instabilitäten in LLM-Dialogsystemen beschreiben.
-
-Diese Beobachtungen sind in verschiedenen Architektur- und Framework-Diskussionen dokumentiert (u. a. im Kontext von Microsoft Semantic Kernel und verwandten Systemarchitekturen).
-
-Da strukturelle Änderungen an Modellarchitekturen lange Entwicklungszyklen benötigen, dient UCOP als **Interaktions-Brücke**, die Nutzern ermöglicht, diese Probleme bereits auf Dialogebene zu adressieren.
-
-Das Framework zwingt das Modell dazu, seine Antworten gegen diese bekannten Fehlermuster zu prüfen und bei Bedarf zu korrigieren.
+Users currently lack a practical method to **stabilize dialogue behavior at the interaction level.**
 
 ---
 
-## Die 14 Architektur-Gaps
+# The Solution
 
-### 1. Proportionality Guard (#13548)
-Verbot von Modus-Sprüngen ohne vorherige Kontextvalidierung.
+UCOP introduces a **dialogue control protocol** enforcing three core principles:
 
-### 2. Capacitive Token Erosion (#13591)
-Vermeidung von logischem Informationsverlust bei hoher Token-Dichte.
+• Proportionality  
+• Standing Coherence  
+• Context Integrity  
 
-### 3. Semantic Attribution Drift (#13583)
-Strikte Einhaltung der Urheberschaft von Argumenten und Logikbeweisen.
+These principles ensure that responses remain:
 
-### 4. Dialog-Dynamic Monitoring (DDMS) (#13584)
-Kontinuierliche Beobachtung dialogischer Instabilitäten.
-
-### 5. Instruction Persistence Failure (#13582)
-Explizite Anweisungen müssen über alle Dialog-Turns hinweg stabil bleiben.
-
-### 6. ResonanceScore Tracking (#13296)
-Messung des tatsächlichen dialogischen Einflusses einzelner Aussagen.
-
-### 7. Performative Risk / Epistemic Opacity (#13537)
-Warnung vor suggestiven Handlungsrahmungen ohne ausreichende epistemische Grundlage.
-
-### 8. Resolved Thematic Reactivation (#13578)
-Bereits abgeschlossene Themen dürfen nicht ohne Anlass erneut geöffnet werden.
-
-### 9. Eventuality-Driven Risk Over-Evaluation (#13576)
-Bewertung muss auf realer Plausibilität basieren, nicht auf theoretischer Möglichkeit.
-
-### 10. STT Semantic Truth Fallacy (#13520)
-Schutz vor semantischen Fehlinterpretationen durch Transkriptionsfehler.
-
-### 11. High-Quality Misinterpretation (#13473)
-Konstruktive Kritik darf nicht als aggressive Kommunikation interpretiert werden.
-
-### 12. Hypothesis Exposition Over-Volume (#13501)
-Verbot von Textvolumen ohne realen Informationsgewinn.
-
-### 13. Contextual Threshold Relevancy (#13450)
-Trigger müssen gegen die aktuelle Kontextdominanz validiert werden.
-
-### 14. Deterministic Response Guard (#13420)
-Schutz sequentieller Logikketten vor Drift oder inkonsistenter Fortführung.
+- relevant
+- logically consistent
+- context-bound
 
 ---
 
-## Funktionsprinzip
+# Architectural Bridge
 
-UCOP arbeitet als dialogisches Kontrollprotokoll.
+UCOP is derived from **14 architectural observations**
+identified in real human–AI dialogue analysis.
 
-Jede generierte Antwort wird implizit gegen die definierten Architektur-Gaps geprüft.
+These observations describe recurring instability patterns in LLM dialogue systems.
 
-Wenn ein entsprechendes Fehlmuster erkannt wird, erfolgt eine unmittelbare Korrektur gemäß dem UCOP-Protokoll.
-
-Vereinfacht:
-Dadurch entsteht ein stabilerer Dialograum, in dem typische LLM-Fehlverhalten frühzeitig erkannt und korrigiert werden können.
-
----
-
-## Ziel des Projekts
-
-UCOP soll eine einfache Möglichkeit bieten, AI-Dialoge stabiler, nachvollziehbarer und reproduzierbarer zu gestalten.
-
-Das Framework richtet sich insbesondere an:
-
-- AI-Power-User
-- Entwickler
-- Prompt Engineers
-- Forscher im Bereich Human–AI Interaction
-- 
+UCOP acts as an **interaction bridge** allowing users to mitigate these behaviors
+until system-level architectural solutions are implemented.
 
 ---
 
-## ⚡ 1-Minute Test
+# The 14 Architectural Gaps
 
-1. Öffne eine neue Chat-Session mit deiner AI.
-2. Sende den UCOP-Initialisierungsprompt.
-3. Arbeite anschließend innerhalb des UCOP-Rahmens.
+(Deine Liste hier – unverändert)
 
 ---
 
-   UCOP-Initialisierungsprompt in Chatfenster einfügen  
-   https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md 
+# How UCOP Works
+
+UCOP operates as a **dialogue-level control protocol**.
+
+Every generated response is implicitly checked against the known architectural gaps.
+
+If a violation occurs, the system is prompted to correct the response.
+
+This produces a more stable dialogue environment.
 
 ---
 
- *UCOP Prompt Set* →   
- (https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Prompt_Set.md)
+# 1-Minute Test
+
+1. Open a new AI chat session  
+2. Insert the UCOP initialization prompt  
+3. Continue the conversation within the UCOP protocol  
+
+UCOP Manifest  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
+
+UCOP Prompt Set  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Prompt_Set.md
 
 ---
 
-## Tested With
+# Target Users
 
-UCOP wurde erfolgreich mit mehreren AI-Systemen getestet.
+UCOP is designed for:
 
-- **ChatGPT** → [examples/chatgpt_example.md](examples/chatgpt_example.md)
-- **Microsoft Copilot** → [examples/copilot_example.md](examples/copilot_example.md)
-- **Google Gemini** → [examples/gemini_example.md](examples/gemini_example.md)
-
-Diese Beispiele zeigen reale Initialisierungs-Audits und die Aktivierung der UCOP-Gewichtungsachsen.
+- AI power users  
+- developers  
+- prompt engineers  
+- human–AI interaction researchers
 
 ---
 
-## License
+# Tested With
 
-MIT License
+- ChatGPT  
+- Microsoft Copilot  
+- Google Gemini  
+
+---
+
+# License
+
+MIT
 
