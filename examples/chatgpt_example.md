@@ -63,10 +63,13 @@ Du kannst direkt fortfahren.
 
 ---
 
+## Sceenshot
+
 [UCOP INITIALIZED SCREEN]
 (https://github.com/traegerton-ai/UCOP-Framework/blob/5b9edf079ea0daa03a7964ea728e6e183273ca45/examples/initSreen.png)
 
 [CHATGPT RESPONSE SCREEN]
+(https://github.com/traegerton-ai/UCOP-Framework/blob/ad972481ab2ef1de1c4ae503db9b630f40a3ba6f/examples/resScreen.png)
 
 ---
 
