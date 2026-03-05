@@ -8,6 +8,10 @@ that reduces drift, improves proportionality, and maintains logical coherence in
 
 ---
 
+<img width="1536" height="1024" alt="ucop" src="https://github.com/user-attachments/assets/a3d494f0-4b94-45d9-aa56-e1693316f97c" />
+
+---
+
 # The Problem
 
 Long LLM conversations frequently exhibit structural instability:
