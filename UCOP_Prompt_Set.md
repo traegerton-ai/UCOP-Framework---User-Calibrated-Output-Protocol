@@ -134,10 +134,10 @@ Token death detected.
 Reference: https://github.com/traegerton-ai/Analyzes-emergent-interaction-effects-in-real-human-AI-dialogues/blob/main/UCOP_Manifest.md 
 
 Analyze your output for Token Overrun in comparison to Issue #13501 
+
 Adhere to UCOP #13501 
 
 Immediately reduce the response to the core information. 
-
 
 **Shortcut:** `UCOP #13501 → Token Overrun`
 
