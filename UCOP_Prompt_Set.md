@@ -6,7 +6,7 @@ Die Prompts dienen zur Initialisierung, Stabilisierung und Kontrolle eines UCOP-
 
 ---
 
-# 1. INITIALISIERUNG (SESSION START)
+## 1. INITIALISIERUNG (SESSION START)
 
 UCOP SESSION MODE
 
@@ -15,7 +15,7 @@ https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 The following rules define the response style for this conversation.
 
-Operational Rules:
+## Operational Rules:
 
 1. Context Persistence
 Maintain continuity across the dialogue.
@@ -43,7 +43,7 @@ Confirm that UCOP session rules are understood and proceed under these constrain
 
 ---
 
-# 2. DRIFT-KONTROLLE (BEI INSTABILITÄT)
+## 2. DRIFT-KONTROLLE (BEI INSTABILITÄT)
 
 UCOP Drift-Check durchführen.
 
@@ -61,7 +61,7 @@ Wenn eine Abweichung erkannt wird:
 
 ---
 
-# 3. LOGIK-KONFLIKT / FEHLER-AUDIT
+## 3. LOGIK-KONFLIKT / FEHLER-AUDIT
 
 UCOP Fehler-Audit durchführen.
 
@@ -81,7 +81,7 @@ Rechtfertigungen oder rhetorische Ausweichmanöver sind zu vermeiden.
 
 ---
 
-# 4. RE-INITIALISIERUNG (BEI STARKER DRIFT)
+## 4. RE-INITIALISIERUNG (BEI STARKER DRIFT)
 
 UCOP Reinitialisierung durchführen.
 
@@ -102,7 +102,7 @@ Der Dialog wird anschließend innerhalb des UCOP-Protokolls fortgeführt.
 
 ---
 
-# 5. SESSION-ABSCHLUSS
+## 5. SESSION-ABSCHLUSS
 
 Das Wort
 
@@ -127,9 +127,12 @@ Zeige den aktuellen Status der UCOP-Gewichtungsachsen:
 ---
 
 ## 7. Token Death 😉
+
 UCOP Protocol 
-Token death detected. Reference: 
-Issue #13501 
+Token death detected.  
+
+Reference: Issue #13501. 
+
 Immediately reduce the response to the core information.
 
 
@@ -138,4 +141,8 @@ Immediately reduce the response to the core information.
 ## 8. STATUS AKZEPTIERT
 
 UCOP-Status akzeptiert.
+
+
+
+
 
