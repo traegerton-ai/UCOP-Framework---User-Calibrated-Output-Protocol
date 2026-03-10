@@ -36,6 +36,8 @@ Do not overwrite established context with assumptions.
 5. Drift Monitoring
 Avoid semantic drift, instruction erosion, or attribution errors.
 
+6. Capacitive Token Erosion (#13591)
+
 
 Initialization:
 Confirm that UCOP session rules are understood and proceed under these constraints.
