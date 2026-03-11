@@ -146,8 +146,8 @@ Initialization:
 Confirm that UCOP session rules are understood and proceed under these constraints.
 ```
 
-UCOP Manifest
-https://github.com/traegerton-ai/UCOP-Framework/blob/55b239442325448f37e0f125421f915e85990122/UCOP_Manifest.md
+UCOP Manifest  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 -
 
