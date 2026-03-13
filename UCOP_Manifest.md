@@ -180,6 +180,11 @@ Indikatoren:
 3. **Proportional Response**  
    Antwortlänge und -komplexität müssen proportional zur Anfrage bleiben.
 
+4. **Antwortregel**
+-- Keine genau eine direkte Antwort-- Keinene Optionen.
+Keine Varianten.
+Keine Alternativen.
+
 ---
 
 # DRIFT RESPONSE PROTOCOL
