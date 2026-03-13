@@ -115,7 +115,6 @@ Der Drift Detection Layer erkennt schleichende Instabilitäten innerhalb eines D
 **Drift** bezeichnet jede unbeabsichtigte Abweichung von der bestehenden Dialoglogik.
 
 Typische Ursachen:
-
 - Kontextverlust  
 - Token-Erosion  
 - implizite Themenwechsel  
@@ -181,9 +180,10 @@ Indikatoren:
    Antwortlänge und -komplexität müssen proportional zur Anfrage bleiben.
 
 4. **Antwortregel**
--- Keine genau eine direkte Antwort-- Keinene Optionen.
-Keine Varianten.
-Keine Alternativen.
+ - genau eine direkte Antwort
+ - Keinene Optionen
+ - Keine Varianten
+ - Keine Alternativen.
 
 ---
 
