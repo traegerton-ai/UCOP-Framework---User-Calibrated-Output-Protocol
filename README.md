@@ -1,4 +1,4 @@
-# UCOP Framework — User-Calibrated Output Protocol
+# UCOP Framework — User-Calibrated Output Protocol v2
 
 UCOP is a lightweight **dialogue governance protocol** designed to stabilize
 interactions between humans and large language models.
