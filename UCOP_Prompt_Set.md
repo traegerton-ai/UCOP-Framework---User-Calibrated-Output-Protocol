@@ -11,10 +11,10 @@ Es bildet die Ausführungsebene (Execution Layer) der UCOP-Systemakte.
 
 **UCOP SESSION MODE aktivieren.**
 
-Referenz (Kontext):  
+Lade das Manifest über den (Search-Layer)  
 https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
-Die folgenden Regeln definieren den Antwortstil für die gesamte Session:
+**Die folgenden Regeln definieren den Antwortstil für die gesamte Session:**
 
 ### Operative UCOP-Regeln
 
@@ -88,7 +88,7 @@ Keine nachträglichen Umdeutungen.
 
 **UCOP Reinitialisierung durchführen.**
 
-Referenz:  
+Lade das Manifest über den (Search-Layer)  
 https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 Setze den Dialogstatus zurück auf:
@@ -135,8 +135,8 @@ Optional: Hinweis auf erkannte Drift oder Stabilität.
 
 **UCOP Protocol Violation: Token Death detected.**
 
-Referenz:  
-https://github.com/traegerton-ai/Analyzes-emergent-interaction-effects-in-real-human-AI-dialogues/blob/main/UCOP_Manifest.md
+Lade das Manifest über den (Search-Layer)  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 Analyse:
 
