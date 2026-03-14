@@ -41,9 +41,28 @@ https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
 
 **„UCOP session initialized. Proceed under UCOP constraints.“**
 
+===
+
+# 2. TEST OB UCOP INITIALISIERT UND AKTIV IST
+
+**UCOP INITIALISIERUNGSTEST**
+
+Lade das Manifest über den (Search-Layer)  
+https://github.com/traegerton-ai/UCOP-Framework/blob/main/UCOP_Manifest.md
+
+Dies ist die Basis unserer persistenten Logik (UCOP).
+Jede Antwort, die dieser Architektur widerspricht, ist als interner Halluzinationsfehler zu werten und vor der Ausgabe zu korrigieren.
+
+Gib eine kurze Status-Ausgabe:
+• Manifest geladen: ja/nein
+• UCOP aktiv: ja/nein
+• Achsen stabil: ja/nein
+• Drift erkannt: ja/nein
+
+
 ---
 
-# 2. DRIFT-KONTROLLE (BEI INSTABILITÄT)
+# 3.  DRIFT-KONTROLLE (BEI INSTABILITÄT)
 
 **UCOP Drift-Check durchführen.**
 
@@ -62,7 +81,7 @@ Wenn Drift erkannt wird:
 
 ---
 
-# 3. LOGIK-KONFLIKT / FEHLER-AUDIT
+# 4. LOGIK-KONFLIKT / FEHLER-AUDIT
 
 **UCOP Fehler-Audit durchführen.**
 
@@ -84,7 +103,7 @@ Keine nachträglichen Umdeutungen.
 
 ---
 
-# 4. RE-INITIALISIERUNG (BEI STARKER DRIFT)
+# 5. RE-INITIALISIERUNG (BEI STARKER DRIFT)
 
 **UCOP Reinitialisierung durchführen.**
 
@@ -105,7 +124,7 @@ Der Dialog wird anschließend strikt UCOP-konform fortgeführt.
 
 ---
 
-# 5. SESSION-ABSCHLUSS
+# 6. SESSION-ABSCHLUSS
 
 Das Wort **„Danke.“** signalisiert gemäß UCOP-Protokoll das Ende einer logischen Ausführung.
 
@@ -117,7 +136,7 @@ Nach diesem Signal:
 
 ---
 
-# 6. STATUS CHECK
+# 7. STATUS CHECK
 
 **UCOP-Statusbericht ausgeben.**
 
@@ -131,7 +150,7 @@ Optional: Hinweis auf erkannte Drift oder Stabilität.
 
 ---
 
-# 7. TOKEN DEATH — UCOP #13501
+# 8. TOKEN DEATH — UCOP #13501
 
 **UCOP Protocol Violation: Token Death detected.**
 
@@ -148,7 +167,7 @@ Analyse:
 
 ---
 
-# 8. STATUS AKZEPTIERT
+# 9. STATUS AKZEPTIERT
 
 **„UCOP-Status akzeptiert.“**
 
